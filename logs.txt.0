@@ -1,0 +1,34 @@
+февр. 01, 2023 6:17:38 PM seti2.server.Server main
+INFO: Create server socket
+февр. 01, 2023 6:17:48 PM seti2.server.Server main
+INFO: Client socket connect
+февр. 01, 2023 6:17:48 PM seti2.server.DownloadFile writeFile
+INFO: Start timer for client /127.0.0.1
+февр. 01, 2023 6:17:48 PM seti2.server.DownloadFile writeFile
+INFO: Read all file from /127.0.0.1
+февр. 01, 2023 6:17:48 PM seti2.server.DownloadFile countSpeed
+INFO: Print speed
+февр. 01, 2023 6:17:58 PM seti2.server.DownloadFile closeConnection
+INFO: Close connection with client /127.0.0.1
+февр. 01, 2023 6:19:18 PM seti2.server.Server main
+INFO: Client socket connect
+февр. 01, 2023 6:19:18 PM seti2.server.DownloadFile writeFile
+INFO: Start timer for client /127.0.0.1
+февр. 01, 2023 6:19:18 PM seti2.server.DownloadFile writeFile
+INFO: Read all file from /127.0.0.1
+февр. 01, 2023 6:19:28 PM seti2.server.DownloadFile closeConnection
+INFO: Close connection with client /127.0.0.1
+февр. 01, 2023 6:22:45 PM seti2.server.Server main
+INFO: Client socket connect
+февр. 01, 2023 6:22:48 PM seti2.server.DownloadFile writeFile
+INFO: Start timer for client /127.0.0.1
+февр. 01, 2023 6:22:48 PM seti2.server.DownloadFile countSpeed
+INFO: Print speed
+февр. 01, 2023 6:22:51 PM seti2.server.DownloadFile countSpeed
+INFO: Print speed
+февр. 01, 2023 6:22:54 PM seti2.server.DownloadFile countSpeed
+INFO: Print speed
+февр. 01, 2023 6:22:54 PM seti2.server.DownloadFile writeFile
+INFO: Read all file from /127.0.0.1
+февр. 01, 2023 6:23:04 PM seti2.server.DownloadFile closeConnection
+INFO: Close connection with client /127.0.0.1

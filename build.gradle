@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClassName = 'seti2.Main'
+}
+
+group 'seti2'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes(
+                'Class-Path': configurations.runtimeClasspath.collect { it.getName() }.join(' '),
+                'Main-Class': 'seti2.Main'
+        )
+    }
+}
+
+dependencies {
+    //annotationProcessor 'org.projectlombok:lombok:1.18.16'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+task runServer(type: JavaExec) {
+    main = 'seti2.server.Server'
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+}
+
+task runClient(type: JavaExec) {
+    main = 'seti2.client.Client'
+    classpath = sourceSets.main.runtimeClasspath
+}
